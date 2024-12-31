@@ -170,3 +170,16 @@ h3 {
     color: red;  
     transform: scale(1.2); 
 }
+
+.warning {
+    color: red;
+    font-weight: bold;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.5;
+    }
+}
+
